@@ -16,11 +16,7 @@
   justify-content: center;
   font-size: 3rem;
 }
-/* .stickybar {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-} */
+
 .list-order {
   display: flex;
   justify-content: space-evenly;
@@ -32,4 +28,17 @@
   margin-top: 0px;
   font-size: 20px;
   border: 1px solid;
+}
+
+.rplayer {
+  position: fixed;
+  height: 200px !important;
+  width: 350px !important;
+  right: 0px;
+  bottom: 128px;
+}
+.dummy-text {
+  position: relative;
+  bottom: 375px;
+  left: 310px;
 }
